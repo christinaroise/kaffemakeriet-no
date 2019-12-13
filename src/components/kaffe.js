@@ -4,7 +4,7 @@ import CoffeeProd from '../CoffeeProd.json'
 import ButtonDark from '../components/buttons/ButtonDark'
 import './kaffe.css'
 
-import donmayoCoffee from  '../../images/donmayoCoffee.png'
+import donmayoCoffee from  '../images/donmayoCoffee.png'
 
 const Kaffe = (props) => {
   const coffeeProducts = [
