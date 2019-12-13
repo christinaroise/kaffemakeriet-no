@@ -1,0 +1,55 @@
+.infoDivCafees{
+    background-color: #eee;
+}
+
+.infoDiv img{
+    margin: 0;
+    margin-right: 2rem;
+    padding: 1rem;
+    width: 30%;
+    object-fit: cover;
+    background-color: #eee;
+}
+
+.infoDiv img{
+    margin-right: 2rem;
+}
+
+.img2 img {
+    margin-left: 2rem;
+}
+
+.infoDiv{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.infoDiv h4 p{
+    margin: 0;  
+}
+
+@media only screen and (max-width: 1024px){
+    .infoDiv{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .infoDiv img {
+        width: 100%;
+        height: 5rem;
+        margin-bottom: 1rem;
+        background-color: white;
+        padding: 0;
+    }
+
+    .img2 img{
+        width: 100%;
+        height: 5rem;
+        margin: 0;
+        background-color: white;
+        padding: 0;
+
+    }
+}
+

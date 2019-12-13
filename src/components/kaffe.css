@@ -1,0 +1,22 @@
+.kaffe-columns{
+    width: 75vw;
+    position: relative;
+    margin: auto;
+    padding: 2rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+
+}
+
+.kaffe-columns img{
+    max-width: 15vw;
+    min-width: 15vw;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .kaffe-columns{
+        visibility: hidden;
+    }
+}

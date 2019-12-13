@@ -1,0 +1,44 @@
+.coffeeCat{
+    margin: auto;
+    width: 65vw;
+    min-height: 65vh;
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    padding: 5rem 0rem;
+}
+
+.coffeeCat p{
+    text-transform: uppercase;
+}
+
+.product{
+    margin-bottom: 1rem;
+}
+
+.coffeeCat button{
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(26,26,26,.7);
+    display: grid;
+    line-height: 1.5;
+    text-decoration: underline rgba(160, 160, 160, 0.7);
+    cursor: pointer;
+    justify-self: start;
+    text-align: left;
+    outline: none;
+
+}
+
+.coffeeCat button:hover{
+    text-decoration: underline rgba(26,26,26,.7);
+}
+
+@media only screen and (max-width: 1024px){
+    .coffeeCat{
+        width: 90vw;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

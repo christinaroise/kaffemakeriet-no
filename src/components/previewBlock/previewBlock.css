@@ -1,0 +1,22 @@
+.previewBlock{
+    min-height: 75vh;
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+    position: relative;
+    visibility: visible;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .previewBlock{
+        width: 100vw;
+        text-align: center;
+        position: relative;
+    }
+
+    .previewBlock h2{
+        font-size: 1.5rem;
+    }
+}

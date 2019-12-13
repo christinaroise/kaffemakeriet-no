@@ -1,0 +1,55 @@
+.info-grid{
+    margin: auto;
+    max-width: 70vw;
+    min-height: 65vh;
+    display: grid;
+    grid-template-columns: 12rem 1fr;
+    padding: 5rem 0rem;
+    overflow: hidden;
+}
+
+.info-grid nav {
+    margin: 0;
+    padding: 0;
+}
+
+
+.info-grid a{
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.5;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(26,26,26,.7);
+    display: grid;
+
+    text-decoration: underline rgba(160, 160, 160, 0.7);
+    cursor: pointer;
+    justify-self: start;
+    text-align: left;
+}
+
+.info-grid a:hover{
+    text-decoration: underline rgba(26,26,26,.7);
+}
+
+.info-grid a:active{
+    border: none;
+}
+
+@media only screen and (max-width: 1024px){
+    .info-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        max-width: 90%;
+    }
+    .info-grid a{
+        text-align: right;
+    }
+    .infoDiv a{
+        text-align: left;
+    }
+}

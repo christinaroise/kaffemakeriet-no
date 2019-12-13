@@ -1,0 +1,20 @@
+.imgBlock{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 80vh;
+
+    color: white;
+    overflow: hidden;
+
+    background-color: #a7a7a7;
+    background-position: center top;
+    background-size: cover;  
+    background-attachment: fixed;  
+  }
+
+  @media only screen and (max-width: 1024px){
+    .imgBlockMobile{
+      height: 37vw;
+    }
+  }
