@@ -27,7 +27,7 @@ const App = () => {
   return (
     <main>
       <article className='header'>
-        <img src="../..//assets/images/logo.png"/>
+        <img src="../../assets/images/logo.png"/>
         <nav>
           <NavLink to="/">Hjem</NavLink>
           <NavLink to="Info">Info</NavLink>
