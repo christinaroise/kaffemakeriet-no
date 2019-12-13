@@ -4,13 +4,26 @@ import CoffeeProd from '../CoffeeProd.json'
 import ButtonDark from '../components/buttons/ButtonDark'
 import './kaffe.css'
 
-import donmayoCoffee from  '../images/donmayoCoffee.png'
+import donmayoCoffee from  '../images/products/donmayoCoffee.png'
+import cerrolostamalesCoffee from  '../images/products/cerrolostamalesCoffee.png'
+import sonoraCoffee from  '../images/products/sonoraCoffee.png'
+import MamaMina from  '../images/products/MamaMina.png'
+import burbonjungle from  '../images/products/burbonjungle.png'
+import merthimountain from  '../images/products/merthimountain.png'
+import madanestate from  '../images/products/madanestate.png'
+import monsoonedMalabar from  '../images/products/monsoonedMalabar.png'
+import lasPalmas from  '../images/products/lasPalmas.png'
+import kanketi from  '../images/products/kanketi.png'
+import mihuti from  '../images/products/mihuti.png'
+import tade from  '../images/products/tade.png'
+import gatugi from  '../images/products/gatugi.png'
+
 
 const Kaffe = (props) => {
   const coffeeProducts = [
     {
       "title": "Don Mayo",
-      "url": {donmayoCoffee}, 
+      "url": donmayoCoffee, 
       "description": "En ren og kompleks kaffe med duft av tørket frukt. Smak av kakao og mørke bær.",
       "region": "Mellom-Amerika",
       "origin": "Costa Rica",
@@ -19,7 +32,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Cerro Los Tamales",
-      "url": "../../assets/images/products/cerrolostamalesCoffee.png",
+      "url": cerrolostamalesCoffee,
       "description": "En saftig og rundt kaffe med duft av melkesjokolade og karamell. Smak av modne røde bær og en søt syrlighet lik som rips. Floral og lang ettersmak.",
       "region": "Mellom-Amerika",
       "origin": "El Salvador",
@@ -28,7 +41,7 @@ const Kaffe = (props) => {
     },
    {
       "title": "Sonora",
-      "url": "../../assets/images/products/sonoraCoffee.png", 
+      "url": sonoraCoffee, 
       "description": "En søt og frisk kaffe med aroma av modne bær og vanilje. Smak av markjordbær og eple. En søt og floral ettersmak med preg av plomme.",
       "region": "Mellom-Amerika",
       "origin": "Costa Rica",
@@ -37,7 +50,7 @@ const Kaffe = (props) => {
     }, 
     {
       "title": "Mama Mina",
-      "url": "../../assets/images/products/MamaMina.png", 
+      "url": MamaMina, 
       "description": "Vanilje og plomme på duft. En fyldig kaffe med toner av mørke bær og karamell. Lang ettersmak av søt steinfrukt..",
       "region": "Mellom-Amerika",
       "origin": "Nicaragua",
@@ -46,7 +59,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Burbon Jungle",
-      "url": "../../assets/images/products/burbonjungle.png", 
+      "url": burbonjungle, 
       "description": "Floral aroma med toner av mørke bær og karamell. En saftig og middels fyldig kaffe med smak av epler og røde bær.",
       "region": "Mellom-Amerika",
       "origin": "El Salvador",
@@ -55,7 +68,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Merthi Mountain",
-      "url": "../../assets/images/products/merthimountain.png", 
+      "url": merthimountain, 
       "description": "En rustikk og fyldig kaffe. Duft av søt tobakk. Smak av kakao og solbær.",
       "region": "Asia",
       "origin": "India",
@@ -64,7 +77,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Madan Estate",
-      "url": "../../assets/images/products/madanestate.png", 
+      "url": madanestate, 
       "description": "En søt og fyldig kaffe. Duft av friske bær, vanilje og tørket frukt. Smak av rabarbra og plomme. Rund, lang og søt ettersmak.",
       "region": "Asia",
       "origin": "Papa Ny-Guinea",
@@ -73,7 +86,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Monsooned Malabar",
-      "url": "../../assets/images/products/monsoonedMalabar.png", 
+      "url": monsoonedMalabar, 
       "description": "En særegen aroma av søt tobakk, salt sjøluft og lær. Kraftig på smak med toner av sjokolade, nøtter og vanilje.",
       "region": "Asia",
       "origin": "India",
@@ -82,7 +95,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Las Palmas",
-      "url": "../../assets/images/products/lasPalmas.png", 
+      "url": lasPalmas, 
       "description": "En søt og intens kaffe med duft av tørket frukt og sjokolade. Smak av søte epler, og en floral avslutning.",
       "region": "Mellom-Amerika",
       "origin": "El Salvador",
@@ -91,7 +104,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Kanketi",
-      "url": "../../assets/images/products/kanketi.png", 
+      "url": kanketi, 
       "description": "En frisk og saftig kaffe med floral duft av sjasmin. Smak av grønt eple, bergamott og sort te.",
       "region": "Afrika",
       "origin": "Etiopia",
@@ -100,7 +113,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Mihuti",
-      "url": "../../assets/images/products/mihuti.png", 
+      "url": mihuti, 
       "description": "En fruktig og ren kaffe med krydret duft. Smak av solbær, kirsebær og plomme. Ettersmak av rabarbra og grapefrukt.",
       "region": "Afrika",
       "origin": "Kenya",
@@ -109,7 +122,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Tade",
-      "url": "../../assets/images/products/tade.png", 
+      "url": tade, 
       "description": "En delikat og leskende kaffe med floral aroma av jasmin og sitronmelisse. Smaker av bergamott, søt sitrus og honning.",
       "region": "Afrika",
       "origin": "Etiopia",
@@ -118,7 +131,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Gatugi",
-      "url": "../../assets/images/products/gatugi.png", 
+      "url": gatugi, 
       "description": "En saftig og bærfrisk kaffe. Duft av røde bær. Smak av rips og solbær.",
       "region": "Afrika",
       "origin": "Kenya",

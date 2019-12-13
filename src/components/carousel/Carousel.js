@@ -3,7 +3,10 @@ import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './carousel.css'
 import ButtonDark from '../buttons/ButtonDark'
-import donmayoCoffee from  '../../images/donmayoCoffee.png'
+
+import donmayoCoffee from  '../../images/products/donmayoCoffee.png'
+import cerrolostamalesCoffee from  '../../images/products/cerrolostamalesCoffee.png'
+import sonoraCoffee from  '../../images/products/sonoraCoffee.png'
 
 
 // This component is not finished. I'd like to link it to CoffeeProd.json but am running out of time. 
@@ -26,7 +29,7 @@ const CarouselBlock = (props) => {
 
                 <Carousel.Item className="carouselItem">
                     <img
-                    src="../../assets/images/products/cerrolostamalesCoffee.png"
+                    src={cerrolostamalesCoffee}
                     alt="Second slide"
                     />
                     <h4>Cerro Los Tamales</h4>
@@ -35,7 +38,7 @@ const CarouselBlock = (props) => {
 
                 <Carousel.Item className="carouselItem">
                     <img
-                    src="../../assets/images/products/sonoraCoffee.png"
+                    src={sonoraCoffee}
                     alt="Third slide"
                     />
                     <h4>Sonora</h4>
