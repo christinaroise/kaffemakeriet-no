@@ -42,6 +42,7 @@
     
     .btnDarkCarousel{
         visibility: visible;
+        margin-top: 1rem;
     }
 
     .carousel{
