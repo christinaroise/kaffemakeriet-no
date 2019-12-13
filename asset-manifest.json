@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kaffemakeriet-no/static/css/main.d76ecee2.chunk.css",
+    "main.css": "/kaffemakeriet-no/static/css/main.e8c0f438.chunk.css",
     "main.js": "/kaffemakeriet-no/static/js/main.2bc0c507.chunk.js",
     "main.js.map": "/kaffemakeriet-no/static/js/main.2bc0c507.chunk.js.map",
     "runtime-main.js": "/kaffemakeriet-no/static/js/runtime-main.980a7fb8.js",
@@ -9,10 +9,10 @@
     "static/js/2.3785750d.chunk.js": "/kaffemakeriet-no/static/js/2.3785750d.chunk.js",
     "static/js/2.3785750d.chunk.js.map": "/kaffemakeriet-no/static/js/2.3785750d.chunk.js.map",
     "index.html": "/kaffemakeriet-no/index.html",
-    "precache-manifest.361f2e531b1e1deee8c203490027b854.js": "/kaffemakeriet-no/precache-manifest.361f2e531b1e1deee8c203490027b854.js",
+    "precache-manifest.89fd8f58808afbe380abaaf8089bd845.js": "/kaffemakeriet-no/precache-manifest.89fd8f58808afbe380abaaf8089bd845.js",
     "service-worker.js": "/kaffemakeriet-no/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/kaffemakeriet-no/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.d76ecee2.chunk.css.map": "/kaffemakeriet-no/static/css/main.d76ecee2.chunk.css.map",
+    "static/css/main.e8c0f438.chunk.css.map": "/kaffemakeriet-no/static/css/main.e8c0f438.chunk.css.map",
     "static/js/2.3785750d.chunk.js.LICENSE": "/kaffemakeriet-no/static/js/2.3785750d.chunk.js.LICENSE",
     "static/media/Gatugi.png": "/kaffemakeriet-no/static/media/Gatugi.8f1fe626.png",
     "static/media/MamaMina.png": "/kaffemakeriet-no/static/media/MamaMina.5d6ab772.png",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.980a7fb8.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.3785750d.chunk.js",
-    "static/css/main.d76ecee2.chunk.css",
+    "static/css/main.e8c0f438.chunk.css",
     "static/js/main.2bc0c507.chunk.js"
   ]
 }
