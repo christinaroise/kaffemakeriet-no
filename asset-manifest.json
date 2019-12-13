@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kaffemakeriet-no/static/css/main.d76ecee2.chunk.css",
+    "main.js": "/kaffemakeriet-no/static/js/main.f3354717.chunk.js",
+    "main.js.map": "/kaffemakeriet-no/static/js/main.f3354717.chunk.js.map",
+    "runtime-main.js": "/kaffemakeriet-no/static/js/runtime-main.980a7fb8.js",
+    "runtime-main.js.map": "/kaffemakeriet-no/static/js/runtime-main.980a7fb8.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/kaffemakeriet-no/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.77568076.chunk.js": "/kaffemakeriet-no/static/js/2.77568076.chunk.js",
+    "static/js/2.77568076.chunk.js.map": "/kaffemakeriet-no/static/js/2.77568076.chunk.js.map",
+    "index.html": "/kaffemakeriet-no/index.html",
+    "precache-manifest.a0978d443766037c64ee28959cfb1bd0.js": "/kaffemakeriet-no/precache-manifest.a0978d443766037c64ee28959cfb1bd0.js",
+    "service-worker.js": "/kaffemakeriet-no/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/kaffemakeriet-no/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.d76ecee2.chunk.css.map": "/kaffemakeriet-no/static/css/main.d76ecee2.chunk.css.map",
+    "static/js/2.77568076.chunk.js.LICENSE": "/kaffemakeriet-no/static/js/2.77568076.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.980a7fb8.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.77568076.chunk.js",
+    "static/css/main.d76ecee2.chunk.css",
+    "static/js/main.f3354717.chunk.js"
+  ]
+}
