@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50f6b90d1f3bae6e67d3e9d12c20167d",
+    "revision": "2b8437e71ef1ebb80908bb83ea8fe3bf",
     "url": "/kaffemakeriet-no/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kaffemakeriet-no/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "709b28adc2a162be063b",
+    "revision": "c731831616ac2f7ba7f7",
     "url": "/kaffemakeriet-no/static/css/main.d76ecee2.chunk.css"
   },
   {
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kaffemakeriet-no/static/js/2.3785750d.chunk.js.LICENSE"
   },
   {
-    "revision": "709b28adc2a162be063b",
-    "url": "/kaffemakeriet-no/static/js/main.5f086c0c.chunk.js"
+    "revision": "c731831616ac2f7ba7f7",
+    "url": "/kaffemakeriet-no/static/js/main.2bc0c507.chunk.js"
   },
   {
     "revision": "2e9c31a31735da804d66",
     "url": "/kaffemakeriet-no/static/js/runtime-main.980a7fb8.js"
+  },
+  {
+    "revision": "8f1fe62658fbdcebbaae539e770622e8",
+    "url": "/kaffemakeriet-no/static/media/Gatugi.8f1fe626.png"
   },
   {
     "revision": "5d6ab772cd95854c8e83ccb7614d3e97",
@@ -54,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "841de40342f581567b16deefb375a5db",
     "url": "/kaffemakeriet-no/static/media/donmayoCoffee.841de403.png"
-  },
-  {
-    "revision": "8f1fe62658fbdcebbaae539e770622e8",
-    "url": "/kaffemakeriet-no/static/media/gatugi.8f1fe626.png"
   },
   {
     "revision": "e02ff2b6e41b84c91e7a7a8a8dd45a3d",
