@@ -1,10 +1,11 @@
 import React from 'react';
-import {Router, Link} from '@reach/router';
 import './App.css';
 import Home from './Home';
 import Info from './Info';
 import Produkter from './Produkter';
 import Footer from './components/various/Footer';
+
+import { HashRouter, Route, Link } from "react-router-dom";
 
 const NavLink = props => (
   <Link 
@@ -25,22 +26,22 @@ const NavLink = props => (
 
 const App = () => {
   return (
-    <main>
-      <article className='header'>
-        <img src="../../assets/images/logo.png"/>
-        <nav>
-          <NavLink to="/">Hjem</NavLink>
-          <NavLink to="Info">Info</NavLink>
-          <NavLink to="Produkter">Produkter</NavLink>
-        </nav>
-      </article>
-      <Router>
-        <Home path="/" />
-        <Info path="Info" />
-        <Produkter path="Produkter"/>
-      </Router>
-      <Footer/>
-    </main>
+    <HashRouter basename='/'>
+      <main>
+        <article className='header'>
+          <img src="../../assets/images/logo.png"/>
+          <nav>
+            <Link to="/">Hjem</Link>
+            <Link to="Info">Info</Link>
+            <Link to="Produkter">Produkter</Link>
+          </nav>
+        </article>
+        <Route exact path="/" component={Home} />
+        <Route path="/Info" component={Info} />
+        <Route path="/Produkter" component={Produkter} />
+        <Footer/>
+      </main>
+    </HashRouter>
   )
   
 }
