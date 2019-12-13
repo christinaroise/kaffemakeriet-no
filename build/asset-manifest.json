@@ -1,30 +1,42 @@
 {
   "files": {
     "main.css": "/kaffemakeriet-no/static/css/main.d76ecee2.chunk.css",
-    "main.js": "/kaffemakeriet-no/static/js/main.7988f248.chunk.js",
-    "main.js.map": "/kaffemakeriet-no/static/js/main.7988f248.chunk.js.map",
+    "main.js": "/kaffemakeriet-no/static/js/main.5f086c0c.chunk.js",
+    "main.js.map": "/kaffemakeriet-no/static/js/main.5f086c0c.chunk.js.map",
     "runtime-main.js": "/kaffemakeriet-no/static/js/runtime-main.980a7fb8.js",
     "runtime-main.js.map": "/kaffemakeriet-no/static/js/runtime-main.980a7fb8.js.map",
     "static/css/2.17e5ed98.chunk.css": "/kaffemakeriet-no/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.ba966a5d.chunk.js": "/kaffemakeriet-no/static/js/2.ba966a5d.chunk.js",
-    "static/js/2.ba966a5d.chunk.js.map": "/kaffemakeriet-no/static/js/2.ba966a5d.chunk.js.map",
+    "static/js/2.3785750d.chunk.js": "/kaffemakeriet-no/static/js/2.3785750d.chunk.js",
+    "static/js/2.3785750d.chunk.js.map": "/kaffemakeriet-no/static/js/2.3785750d.chunk.js.map",
     "index.html": "/kaffemakeriet-no/index.html",
-    "precache-manifest.d2ca8b40d1682aef63c190de3ddf62a0.js": "/kaffemakeriet-no/precache-manifest.d2ca8b40d1682aef63c190de3ddf62a0.js",
+    "precache-manifest.3b9b867df5cdd97f73b1be2e235cdcbd.js": "/kaffemakeriet-no/precache-manifest.3b9b867df5cdd97f73b1be2e235cdcbd.js",
     "service-worker.js": "/kaffemakeriet-no/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/kaffemakeriet-no/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.d76ecee2.chunk.css.map": "/kaffemakeriet-no/static/css/main.d76ecee2.chunk.css.map",
-    "static/js/2.ba966a5d.chunk.js.LICENSE": "/kaffemakeriet-no/static/js/2.ba966a5d.chunk.js.LICENSE",
+    "static/js/2.3785750d.chunk.js.LICENSE": "/kaffemakeriet-no/static/js/2.3785750d.chunk.js.LICENSE",
+    "static/media/MamaMina.png": "/kaffemakeriet-no/static/media/MamaMina.5d6ab772.png",
+    "static/media/burbonjungle.png": "/kaffemakeriet-no/static/media/burbonjungle.934eb630.png",
+    "static/media/cerrolostamalesCoffee.png": "/kaffemakeriet-no/static/media/cerrolostamalesCoffee.b340e709.png",
     "static/media/coffeeHeart.jpg": "/kaffemakeriet-no/static/media/coffeeHeart.2a6fb753.jpg",
     "static/media/coffeePress.jpg": "/kaffemakeriet-no/static/media/coffeePress.0ae59e63.jpg",
     "static/media/coffeeshop.jpg": "/kaffemakeriet-no/static/media/coffeeshop.3866be12.jpg",
     "static/media/donmayoCoffee.png": "/kaffemakeriet-no/static/media/donmayoCoffee.841de403.png",
-    "static/media/logo.png": "/kaffemakeriet-no/static/media/logo.29ebab22.png"
+    "static/media/gatugi.png": "/kaffemakeriet-no/static/media/gatugi.8f1fe626.png",
+    "static/media/kanketi.png": "/kaffemakeriet-no/static/media/kanketi.e02ff2b6.png",
+    "static/media/lasPalmas.png": "/kaffemakeriet-no/static/media/lasPalmas.5489980d.png",
+    "static/media/logo.png": "/kaffemakeriet-no/static/media/logo.29ebab22.png",
+    "static/media/madanestate.png": "/kaffemakeriet-no/static/media/madanestate.08abbafb.png",
+    "static/media/merthimountain.png": "/kaffemakeriet-no/static/media/merthimountain.b192bc8f.png",
+    "static/media/mihuti.png": "/kaffemakeriet-no/static/media/mihuti.62e07bcf.png",
+    "static/media/monsoonedMalabar.png": "/kaffemakeriet-no/static/media/monsoonedMalabar.cdd8449f.png",
+    "static/media/sonoraCoffee.png": "/kaffemakeriet-no/static/media/sonoraCoffee.e22e197e.png",
+    "static/media/tade.png": "/kaffemakeriet-no/static/media/tade.aac8bc5e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.980a7fb8.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.ba966a5d.chunk.js",
+    "static/js/2.3785750d.chunk.js",
     "static/css/main.d76ecee2.chunk.css",
-    "static/js/main.7988f248.chunk.js"
+    "static/js/main.5f086c0c.chunk.js"
   ]
 }

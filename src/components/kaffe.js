@@ -16,7 +16,7 @@ import lasPalmas from  '../images/products/lasPalmas.png'
 import kanketi from  '../images/products/kanketi.png'
 import mihuti from  '../images/products/mihuti.png'
 import tade from  '../images/products/tade.png'
-import gatugi from  '../images/products/gatugi.png'
+import gatugi from  '../images/products/Gatugi.png'
 
 
 const Kaffe = (props) => {
