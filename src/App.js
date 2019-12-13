@@ -4,6 +4,7 @@ import Home from './Home';
 import Info from './Info';
 import Produkter from './Produkter';
 import Footer from './components/various/Footer';
+import logo from './images/logo.png'
 
 import { HashRouter, Route, Link } from "react-router-dom";
 
@@ -29,7 +30,7 @@ const App = () => {
     <HashRouter basename='/'>
       <main>
         <article className='header'>
-          <img src="../../assets/images/logo.png"/>
+          <img src={logo}/>
           <nav>
             <Link to="/">Hjem</Link>
             <Link to="Info">Info</Link>
