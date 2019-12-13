@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './carousel.css'
 import ButtonDark from '../buttons/ButtonDark'
+import donmayoCoffee from  '../../images/donmayoCoffee.png'
 
 
 // This component is not finished. I'd like to link it to CoffeeProd.json but am running out of time. 
@@ -15,7 +16,7 @@ const CarouselBlock = (props) => {
             <Carousel className="carousel">
                 <Carousel.Item className="carouselItem">
                     <img
-                    src="../../assets/images/products/donmayoCoffee.png"
+                    src={donmayoCoffee}
                     alt="First slide"
                     />
                     <h4>Don Mayo</h4>
