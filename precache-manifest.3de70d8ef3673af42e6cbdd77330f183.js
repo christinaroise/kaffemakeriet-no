@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a53d3c45b8ca1e9a8a0b71178619bdf",
+    "revision": "683d7442aa0ee5f12c8386be2c27d62e",
     "url": "/kaffemakeriet-no/index.html"
   },
   {
-    "revision": "cc17b3b37f692bc3286d",
+    "revision": "000c47b52ec68daf09a5",
     "url": "/kaffemakeriet-no/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "64cdff0c2078c5c35708",
+    "revision": "957c799e83ae02f69b10",
     "url": "/kaffemakeriet-no/static/css/main.d76ecee2.chunk.css"
   },
   {
-    "revision": "cc17b3b37f692bc3286d",
-    "url": "/kaffemakeriet-no/static/js/2.7042f956.chunk.js"
+    "revision": "000c47b52ec68daf09a5",
+    "url": "/kaffemakeriet-no/static/js/2.c3d6dbb6.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/kaffemakeriet-no/static/js/2.7042f956.chunk.js.LICENSE"
+    "url": "/kaffemakeriet-no/static/js/2.c3d6dbb6.chunk.js.LICENSE"
   },
   {
-    "revision": "64cdff0c2078c5c35708",
-    "url": "/kaffemakeriet-no/static/js/main.842c23dc.chunk.js"
+    "revision": "957c799e83ae02f69b10",
+    "url": "/kaffemakeriet-no/static/js/main.011aa5b3.chunk.js"
   },
   {
     "revision": "2e9c31a31735da804d66",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3866be12723353c482523505cada6f57",
     "url": "/kaffemakeriet-no/static/media/coffeeshop.3866be12.jpg"
+  },
+  {
+    "revision": "841de40342f581567b16deefb375a5db",
+    "url": "/kaffemakeriet-no/static/media/donmayoCoffee.841de403.png"
   },
   {
     "revision": "29ebab22ba814981e226a38848a041dd",
