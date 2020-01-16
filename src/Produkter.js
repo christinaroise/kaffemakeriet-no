@@ -1,7 +1,8 @@
 import React from 'react';
 import ImgBlock from './components/imgBlock/ImgBlock';
 import ProductsLib from './components/ProductsInfo/ProductsLib';
-import Footer from './components/various/Footer'
+
+import coffeNature from './images/coffeNature.jpg'
 
 // On mobile, Coffee menu will become a toggle/burger menu. 
 
@@ -10,7 +11,7 @@ import Footer from './components/various/Footer'
 const Produkter = () => {
     return(
         <main>
-            <ImgBlock imgUrl="../../assets/images/coffeNature.jpg" showTxtOverlay="false" quote="Vi er stolte leverandører av" title="Solberg & Hansen" hideButtonWhite="true"/>
+            <ImgBlock imgUrl={coffeNature} showTxtOverlay="false" quote="Vi er stolte leverandører av" title="Solberg & Hansen" hideButtonWhite="true"/>
             <ProductsLib/>
         </main>
     )

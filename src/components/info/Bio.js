@@ -1,11 +1,15 @@
 import React from 'react'
 import '../info/infoDiv.css'
 
+import friendsCoffee from '../../images/friendsCoffee.jpg'
+
 
 const Bio = () => {
     return(
         <div className="infoDiv">
-            <img src="../../assets/images/friendsCoffee.jpg"/>
+            <div className="infoDivImgContainter">
+                <img src={friendsCoffee}/>
+            </div>
             <div>
                 <h4>Vår historie</h4>
                 <p>I 2005 åpnet Kaffemakeriet sin første kaffebar. Drivkraften i Kaffemakeriet er stor lidenskap for kaffe og alt som hører med. Vi kan i dag tilby kaffe og te i en rekke varianter, bakevarer, iskrem, smoothies og milkshakes i mange forskjellige smaker. Etter mye testing og langt samarbeid med kunder og leverandører har vi valgt ut det vi mener er de beste råvarene og produktene til våre kaffebarer.

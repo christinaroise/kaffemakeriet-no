@@ -1,23 +1,41 @@
 import React, {useState, useEffect}from 'react'
 import ProductsCoffee from './ProductsInfo/ProductsCoffee';
 import CoffeeProd from '../CoffeeProd.json'
-import ButtonDark from '../components/buttons/ButtonDark'
-import './kaffe.css'
+import ButtonDark from '../components/buttons/ButtonDark';
+import './kaffe.css';
 
-import donmayoCoffee from  '../images/products/donmayoCoffee.png'
-import cerrolostamalesCoffee from  '../images/products/cerrolostamalesCoffee.png'
-import sonoraCoffee from  '../images/products/sonoraCoffee.png'
-import MamaMina from  '../images/products/MamaMina.png'
-import burbonjungle from  '../images/products/burbonjungle.png'
-import merthimountain from  '../images/products/merthimountain.png'
-import madanestate from  '../images/products/madanestate.png'
-import monsoonedMalabar from  '../images/products/monsoonedMalabar.png'
-import lasPalmas from  '../images/products/lasPalmas.png'
-import kanketi from  '../images/products/kanketi.png'
-import mihuti from  '../images/products/mihuti.png'
-import tade from  '../images/products/tade.png'
-import gatugi from  '../images/products/Gatugi.png'
-
+import donmayoCoffee from  '../images/products/donmayoCoffee.png';
+import cerrolostamalesCoffee from  '../images/products/cerrolostamalesCoffee.png';
+import sonoraCoffee from  '../images/products/sonoraCoffee.png';
+import MamaMina from  '../images/products/MamaMina.png';
+import burbonjungle from  '../images/products/burbonjungle.png';
+import merthimountain from  '../images/products/merthimountain.png';
+import madanestate from  '../images/products/madanestate.png';
+import monsoonedMalabar from  '../images/products/monsoonedMalabar.png';
+import lasPalmas from  '../images/products/lasPalmas.png';
+import kanketi from  '../images/products/kanketi.png';
+import mihuti from  '../images/products/mihuti.png';
+import tade from  '../images/products/tade.png';
+import gatugi from  '../images/products/Gatugi.png';
+import azucarbuena from '../images/products/azucarbuena.png';
+import clemente from '../images/products/clemente.png';
+import yeniRamos from '../images/products/yeniRamos.png';
+import fazendoBarreiro from '../images/products/fazendoBarreiro.png';
+import tadeEspresso from '../images/products/tadeEspresso.png';
+import planadasEspresso from '../images/products/planadasEspresso.png';
+import barreiroEspresso from '../images/products/barreiroEspresso.png';
+import madanEspresso from '../images/products/madanEspresso.png';
+import javaMocca from '../images/products/javaMocca.png';
+import franskbrent from '../images/products/franskbrent.png';
+import halfNhalf from '../images/products/halfNhalf.png';
+import italienskbrent from '../images/products/italienskbrent.png';
+import nicaragua from '../images/products/nicaragua.png';
+import laBolsa from '../images/products/laBolsa.png';
+import kraftigjulekaffe from '../images/products/kraftigjulekaffe.png';
+import klassiskjulekaffe from '../images/products/klassiskjulekaffe.png';
+import juleEspresso from '../images/products/juleespresso.png';
+import tarquiEspresso from '../images/products/tarquiEspresso.png';
+import tarqui from '../images/products/tarqui.png';
 
 const Kaffe = (props) => {
   const coffeeProducts = [
@@ -140,7 +158,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Azucár Buena",
-      "url": "../../assets/images/products/azucarbuena.png", 
+      "url": azucarbuena, 
       "description": "En saftig og delikat kaffe. Duft av marsipan og kirsebær. Krydret smak av vanilje, kardemomme og nype. Søt ettersmak.",
       "region": "Sør-Amerika",
       "origin": "Colombia",
@@ -149,7 +167,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Clemente",
-      "url": "../../assets/images/products/clemente.png", 
+      "url": clemente, 
       "description": "Lys sjokolade og karamell på duft. Toner av floralitet. En leskende kaffe med smak av grønne epler. Frisk avslutning.",
       "region": "Sør-Amerika",
       "origin": "Peru",
@@ -158,7 +176,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Yeni Ramos",
-      "url": "../../assets/images/products/yeniRamos.png", 
+      "url": yeniRamos, 
       "description": "Duft av sjasmin og søte epler. En søt og fruktig kaffe med smak av moden frukt og kirsebær. Saftig ettersmak.",
       "region": "Sør-Amerika",
       "origin": "Colombia",
@@ -167,7 +185,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Fazendo Barreiro",
-      "url": "../../assets/images/products/fazendoBarreiro.png", 
+      "url": fazendoBarreiro, 
       "description": "En rund og søt kaffe. Duft av hasselnøtt. Smak av sjokolade og tørket frukt.",
       "region": "Sør-Amerika",
       "origin": "Brasil",
@@ -176,7 +194,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Tade Espresso",
-      "url": "../../assets/images/products/tadeEspresso.png", 
+      "url": tadeEspresso, 
       "description": "En balansert espresso med floral aroma. Smaken er delikat og preges av søt sitrus som bergamott og appelsin. Tørket frukt i ettersmaken.",
       "region": "Afrika",
       "origin": "Etiopia",
@@ -185,7 +203,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Planadas Espresso",
-      "url": "../../assets/images/products/planadasEspresso.png", 
+      "url": planadasEspresso, 
       "description": "En saftig og intens espresso. Kirsebær på duft. Smak av tørket aprikos, kirsebær og sjokolade.",
       "region": "Sør-Amerika",
       "origin": "Colombia",
@@ -194,7 +212,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Fazenda Barreiro Espresso",
-      "url": "../../assets/images/products/barreiroEspresso.png", 
+      "url": barreiroEspresso, 
       "description": "En søt og intens espresso med smak av hasselnøtter og bjørnebær. Ettersmak av mørk sjokolade. Lang avslutning.",
       "region": "Sør-Amerika",
       "origin": "Brasil",
@@ -203,7 +221,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Madan Estate",
-      "url": "../../assets/images/products/madanEspresso.png", 
+      "url": madanEspresso, 
       "description": "En saftig espresso med smak av søte plommer og solbær.",
       "region": "Asia",
       "origin": "Papa Ny-Guinea",
@@ -212,7 +230,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Java Mocca",
-      "url": "../../assets/images/products/javaMocca.png", 
+      "url": javaMocca, 
       "description": "Fruktig aroma med toner av nøtter og karamell. En sødmefull kaffe med ettersmak av mørk sjokolade og moden frukt.",
       "region": "Blanding",
       "origin": "Kaffeblanding",
@@ -221,7 +239,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Franskbrent",
-      "url": "../../assets/images/products/franskbrent.png", 
+      "url": franskbrent, 
       "description": "Søt aroma av karamell og nøtter. En klassisk og rund espresso med smak av kirsebær, nøtter og sjokolade.",
       "region": "Blanding",
       "origin": "Espressoblanding",
@@ -230,7 +248,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Half & Half",
-      "url": "../../assets/images/products/halfNhalf.png", 
+      "url": halfNhalf, 
       "description": "Aroma av melkesjokolade, karamell og nøtter. En rund espresso med smak av sjokolade og moden mørk steinfrukt.",
       "region": "Blanding",
       "origin": "Espressoblanding",
@@ -239,7 +257,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Italienskbrent",
-      "url": "../../assets/images/products/italienskbrent.png", 
+      "url": italienskbrent, 
       "description": "Aroma av mørk karamell og ristede nøtter. En kremet og intens espresso med toner av vanilje og smak av mørk kakao.",
       "region": "Blanding",
       "origin": "Mørkbrent espresso",
@@ -248,7 +266,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Funky Naturals: Nicaragua",
-      "url": "../../assets/images/products/nicaragua.png", 
+      "url": nicaragua, 
       "description": "En søt og funky kaffe med duft av modne bær og vanilje. Smak av tropisk frukt og sitronmelisse.",
       "region": "Mellom-Amerika",
       "origin": "Nicaragua",
@@ -257,7 +275,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "La Bolsa",
-      "url": "../../assets/images/products/laBolsa.png", 
+      "url": laBolsa, 
       "description": "En saftig og kompleks kaffe. Duft av mandel, karamell og appelsin. Smak av friske bær og sitrus.",
       "region": "Mellom-Amerika",
       "origin": "En julefortelling fra Guatemala",
@@ -266,7 +284,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Kraftig Julekaffe",
-      "url": "../../assets/images/products/kraftigjulekaffe.png", 
+      "url": kraftigjulekaffe, 
       "description": "En mørkere brent og fyldig kaffe. Duft av plomme. Smak av kokesjokolade og mørke bær.",
       "region": "Asia",
       "origin": "Papa Ny-Guinea",
@@ -275,7 +293,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Klassisk Julekaffe",
-      "url": "../../assets/images/products/klassiskjulekaffe.png", 
+      "url": klassiskjulekaffe, 
       "description": "En søt og saftig kaffe. Duft av vanilje, nøtter og bjørnebær. Smak av kakao, karamell og røde bær.",
       "region": "Mellom-Amerika",
       "origin": "Costa Rica",
@@ -284,7 +302,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Juleespresso",
-      "url": "../../assets/images/products/juleEspresso.png", 
+      "url": juleEspresso, 
       "description": "En kremet og søt espresso med moden fruktkarakter. Smak av kirsebær, og et hint av jordbær og vanilje.",
       "region": "Blanding",
       "origin": "El Salvador og Colombia",
@@ -293,7 +311,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Dekaffinert Espresso, Tarqui",
-      "url": "../../assets/images/products/tarquiEspresso.png", 
+      "url": tarquiEspresso, 
       "description": "modne røde bær i aromaen. Smak med preg av jordbær, vanilje og karamell. Balansert, med kremet munnfølelse.",
       "region": "Sør-Amerika",
       "origin": "Columbia",
@@ -302,7 +320,7 @@ const Kaffe = (props) => {
     },
     {
       "title": "Dekaffinert, Tarqui",
-      "url": "../../assets/images/products/tarqui.png", 
+      "url": tarqui, 
       "description": "Om smaken: duft av modne bær og vanilje. Kremet kaffe med smak av melkesjokolade og tørket frukt. Krydret og søt ettersmak.",
       "region": "Sør-Amerika",
       "origin": "Colombia",
@@ -317,6 +335,7 @@ const Kaffe = (props) => {
     var copyCoffeeProducts = [...coffeeProducts]
     var limitedCoffeList = []
     for(var i = 0; i < limit; i++){
+      console.log(copyCoffeeProducts[i]);
       limitedCoffeList.push(copyCoffeeProducts[i])
     }
     limitProducts(limitedCoffeList)

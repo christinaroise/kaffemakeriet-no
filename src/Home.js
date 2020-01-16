@@ -8,9 +8,9 @@ import coffeeshop from './images/coffeeshop.jpg';
 
 // A little too late, I realized I wanted ImgBlock 2 and 3 in Home to have a shorter height than the first. That the "hero" would remain the same on each page, but the ImgBlocks working as decorative backgrounds would not. I should, and I will create a separate component for this reason.
 
-// Products will have a drop-down menu containing Kaffe, Tea, and Other
+// Products will have a drop-down menu containing 'Kaffe', 'Tea', and 'Annet'
 
-// I also didn't have time to attach working links to buttons and other a-elements outside header. 
+// I also didn't have time to attach working links to buttons and other a elements outside header. 
 
 function Home() {
   return (

@@ -24,8 +24,6 @@
     font-size: 1rem;
     color: rgba(26,26,26,.7);
     display: grid;
-
-    text-decoration: underline rgba(160, 160, 160, 0.7);
     cursor: pointer;
     justify-self: start;
     text-align: left;
@@ -37,6 +35,28 @@
 
 .info-grid a:active{
     border: none;
+}
+
+.hide {
+    visibility: collapse;
+    height: 0;
+}
+
+.show{
+    visibility: visible;
+    height: auto;
+}
+
+.selected {
+    color: #212529 !important;
+    text-decoration: underline rgba(26,26,26,.7) !important;
+}
+
+.mobileInfo{
+    opacity: 0;
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
 }
 
 @media only screen and (max-width: 1024px){
@@ -51,5 +71,35 @@
     }
     .infoDiv a{
         text-align: left;
+    }
+
+    .desktopInfoMenu{
+        opacity: 0;
+    }
+
+    .mobileInfo{
+        opacity: 1;
+        background-color: white;
+        text-align: right;
+        right: 1.3rem;
+        z-index: 4;
+    }
+
+    .openInfoMenuContainer  button{
+        border: none;
+        background-color: white;
+        font-weight: 200;
+        font-size: 2.5rem;
+    }
+
+    .mobileInfoMenuContainer {
+        opacity: 1;
+        z-index: -1;
+    }
+    .mobileInfoMenuContainer button {
+        border: none;
+        background-color: white;
+        font-weight: 200;
+        font-size: 2.5rem;
     }
 }

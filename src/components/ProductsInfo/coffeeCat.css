@@ -15,6 +15,12 @@
     margin-bottom: 1rem;
 }
 
+.roast-btns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+}
+
 .coffeeCat button{
     border: none;
     font-family: 'Lato', sans-serif;
@@ -23,11 +29,13 @@
     color: rgba(26,26,26,.7);
     display: grid;
     line-height: 1.5;
-    text-decoration: underline rgba(160, 160, 160, 0.7);
     cursor: pointer;
     justify-self: start;
     text-align: left;
     outline: none;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
 
 }
 
@@ -35,10 +43,36 @@
     text-decoration: underline rgba(26,26,26,.7);
 }
 
+.highlightBtn {
+    color: #212529 !important;
+    text-decoration: underline #212529 !important;
+}
+
 @media only screen and (max-width: 1024px){
     .coffeeCat{
         width: 90vw;
         margin: auto;
         grid-template-columns: 1fr;
+    }
+
+    .products-btns-mobile button{
+        display: inline-block;
+        justify-self: start;
+        margin: 0.25rem;
+        padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+        background-color: white;
+        border: 1px solid rgba(26,26,26,.7);
+        text-decoration: none;
+    }
+
+    .highlightBtn {
+        background-color: #a7a7a7 !important;
+        text-decoration: none !important;
+        color: white !important;
+        border: 1px solid #a7a7a7 !important;
+    }
+
+    .coffeeCat button:hover{
+        text-decoration: none !important;
     }
 }

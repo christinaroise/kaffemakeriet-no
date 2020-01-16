@@ -1,11 +1,12 @@
 import React from 'react';
 import './ButtonWhite.css';
+import {Link} from "react-router-dom";
 
 const ButtonWhite = (props) => {
     return(
-        <div>
+        <Link to="/Info">
             <button className='btnWhite'>{props.title}</button>
-        </div>
+        </Link>
     );
 }
 

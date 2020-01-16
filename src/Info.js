@@ -5,22 +5,95 @@ import Cafes from './components/info/Cafes'
 import Career from './components/info/career'
 import './components/info/info.css'
 
+import womanCoffee from './images/womanCoffee.jpg'
+
 // On mobile, the menu will become a toggle/burger menu. When clicked on each button its sister-component will appear, the others will remain hidden. "Vår historie" will be default. 
 
+function showBio () {
+    let bioDiv = document.getElementById("compBioDiv");
+    let bioLink = document.getElementById("bioLink");
+    let cafeDiv = document.getElementById("compCafeDiv");
+    let cafeLink = document.getElementById("cafeLink");
+    let careerDiv = document.getElementById("compCareerDiv");
+    let careerLink = document.getElementById("careerLink");
+    
+
+    bioDiv.className = "show";
+    bioLink.className = "selected";
+    cafeDiv.className = "hide";
+    cafeLink.className = "";
+    careerDiv.className = "hide";
+    careerLink.className = "";
+}
+
+function showCafes () {
+    let bioDiv = document.getElementById("compBioDiv");
+    let bioLink = document.getElementById("bioLink");
+    let cafeDiv = document.getElementById("compCafeDiv");
+    let cafeLink = document.getElementById("cafeLink");
+    let careerDiv = document.getElementById("compCareerDiv");
+    let careerLink = document.getElementById("careerLink");
+
+    bioDiv.className = "hide";
+    bioLink.className = "";
+    cafeDiv.className = "show";
+    cafeLink.className = "selected";
+    careerDiv.className = "hide";
+    careerLink.className = "";
+
+
+}
+
+function showCareer () {
+    let bioDiv = document.getElementById("compBioDiv");
+    let bioLink = document.getElementById("bioLink");
+    let cafeDiv = document.getElementById("compCafeDiv");
+    let cafeLink = document.getElementById("cafeLink");
+    let careerDiv = document.getElementById("compCareerDiv");
+    let careerLink = document.getElementById("careerLink");
+
+    bioDiv.className = "hide";
+    bioLink.className = "";
+    cafeDiv.className = "hide";
+    cafeLink.className = "";
+    careerDiv.className = "show";
+    careerLink.className = "selected";
+}
+
 const Intro = () => {
+
     return(
         <main>
-            <ImgBlock imgUrl="../../assets/images/womanCoffee.jpg" showTxtOverlay="true" hideButtonWhite="true"/>
+            <ImgBlock imgUrl={womanCoffee} showTxtOverlay="true" hideButtonWhite="true"/>
             <article className="info-grid">
-                <nav>
-                    <a>Vår Historie</a>
-                    <a>Våre Kaffebarer</a>
-                    <a>Bli en kaffemaker</a>
+                <nav className="desktopInfoMenu">
+                    <a id="bioLink" onClick={showBio}>Vår Historie</a>
+                    <a id="cafeLink" onClick={showCafes}>Våre Kaffebarer</a>
+                    <a id="careerLink" onClick={showCareer}>Bli en kaffemaker</a>
                 </nav>
+
+                <article className="mobileInfo">
+                    <div>
+                        <div className="openInfoMenuContainer">
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div className="mobileInfoMenuContainer">
+                        <div className="exitInfoMenuContainer">
+                            <button>-</button>
+                        </div>
+                        <nav>
+                            <a id="bioLink" onClick={showBio}>Vår Historie</a>
+                            <a id="cafeLink" onClick={showCafes}>Våre Kaffebarer</a>
+                            <a id="careerLink" onClick={showCareer}>Bli en kaffemaker</a>
+                        </nav>
+                    </div>
+                </article> 
+
                 <div>
-                    <Bio/>
-                    <Cafes />
-                    <Career />
+                    <div id="compBioDiv" className="show"><Bio/></div>
+                    <div id="compCafeDiv" className="hide"><Cafes/></div>
+                    <div id="compCareerDiv" className="hide"><Career/></div>
                 </div>             
             </article>
             

@@ -1,4 +1,17 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
+
+import Home from '../../Home.js';
+import Info from '../../Info.js';
+import Produkter from '../../Produkter.js';
+
+
+function scrollToTop() {
+    window.scrollTo({
+      top: 0
+    });
+}
+
 
 const Footer = () => {
     return(
@@ -6,11 +19,17 @@ const Footer = () => {
             <div className="footer-columns">
                 <div className="footer-menu">
                     <h4>Meny</h4>
-                    <a>Info</a>
-                    <a>Produkter</a>
-                    <a>Kontakt</a>
-                    <a>Instagram</a>
-                    <a>Facebook</a>
+                    <Link to ="/Home">
+                        <a onClick={() => scrollToTop()}>Hjem</a>
+                    </Link>
+                    <Link to="/Info">
+                        <a onClick={() => scrollToTop()}>Info</a>
+                    </Link>
+                    <Link to="/Produkter">
+                        <a onClick={() => scrollToTop()}>Produkter</a>
+                    </Link>
+                    <a href="https://www.instagram.com/kaffemakeriet/">Instagram</a>
+                    <a href="https://www.facebook.com/KAFFEMAKERIET">Facebook</a>
                 </div>
 
                 <div className="hours">
@@ -38,7 +57,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="credits">
-                    <h5>Developed and Designed by Christina Roise</h5>
+                    <h5>Developed and Designed by Christina Røise</h5>
                 </div>
 
         </article>

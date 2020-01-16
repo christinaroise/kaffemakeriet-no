@@ -1,12 +1,16 @@
 import React from 'react'
 import '../info/infoDiv.css'
 
+import greenCoffeeCup from '../../images/greenCoffeeCup.jpg'
+
 //On mobile, the way this HTML is built creates a challenge: elements are show in the wrong order. It should be img, txt, img, txt. I know how to fix it, I just didn't have time. 
 
 const Career = () => {
     return(
         <div className="infoDiv">
-                <img  src="../../assets/images/greenCoffeeCup.jpg"/>
+                <div className="infoDivImgContainter">
+                    <img src={greenCoffeeCup}/>
+                </div>
                 <div>
                     <h4>Ønsker du å bli en kaffemaker?</h4>
                     <h5>Som en kaffemaker i Kaffemakeriet er du en del av et fellesskap som alltid er i utvikling.</h5>
