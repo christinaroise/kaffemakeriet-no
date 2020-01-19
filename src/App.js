@@ -34,7 +34,7 @@ const App = () => {
 
 
   return (
-    <HashRouter basename='/Home'>
+    <HashRouter basename='/'>
       <main>
         <article className='header'>
           <img src={logo}/>
@@ -66,7 +66,7 @@ const App = () => {
             </div>
           </nav>
         </article>
-        <Route path="/Home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/Info" component={Info} />
         <Route path="/Produkter" component={Produkter} />
         <Footer/>
