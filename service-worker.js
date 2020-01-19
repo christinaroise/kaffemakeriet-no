@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kaffemakeriet-no/precache-manifest.f78399b83b040a6979271e9e96c4b7d0.js"
+  "/kaffemakeriet-no/precache-manifest.222c61597fee41c0db85ee1d91b78dd8.js"
 );
 
 self.addEventListener('message', (event) => {
