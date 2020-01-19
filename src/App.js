@@ -34,7 +34,7 @@ const App = () => {
 
 
   return (
-    <HashRouter basename='/'>
+    <HashRouter basename='/Home'>
       <main>
         <article className='header'>
           <img src={logo}/>

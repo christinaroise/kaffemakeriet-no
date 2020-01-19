@@ -395,22 +395,26 @@ const ProductsLib = (props) => {
   function filterCoffeeProducts() {
     var copyCoffeeProducts = [...coffeeProducts]
     if(roast === "all" && region === "all") {
+      console.log("1")
       filterProducts(coffeeProductsList)
       return;
     }
 
     if(roast === "all") {
+      console.log("2")
       copyCoffeeProducts = copyCoffeeProducts.filter( product => product.region === region);
       filterProducts(copyCoffeeProducts)
       return;
     }
 
     if(region === "all") {
+      console.log("3")
       copyCoffeeProducts = copyCoffeeProducts.filter( product => product.roast === roast);
       filterProducts(copyCoffeeProducts)
       return;
     }
 
+    console.log("4")
     copyCoffeeProducts = copyCoffeeProducts.filter( product => product.roast === roast && product.region === region);
     filterProducts(copyCoffeeProducts)
   }
@@ -449,7 +453,7 @@ const ProductsLib = (props) => {
             }}>Asia</button>
             <button id="btn-MAmerika" onClick={ () => {
              hightlightHandler("btn-MAmerika", "regionDiv");
-             changeRegion("MellomAmerikca");
+             changeRegion("Mellom-Amerika");
             }}>Mellom-Amerika</button>
             <button id="btn-SAmerika" onClick={ () => {
               hightlightHandler("btn-SAmerika", "regionDiv");
@@ -463,7 +467,8 @@ const ProductsLib = (props) => {
           <br></br>
           <button id="btn-normal-roast" onClick={() => {
               hightlightHandler("btn-normal-roast", "all");
-              filterProducts(coffeeProductsList)
+              changeRegion("all");
+              changeRoast("all");
             }}>Vis alle</button>
       </div>
       <div className='productsShow-columns'>

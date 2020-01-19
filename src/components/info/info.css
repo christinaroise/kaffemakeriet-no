@@ -53,10 +53,8 @@
 }
 
 .mobileInfo{
-    opacity: 0;
+    display: none;
     background-color: transparent;
-    position: absolute;
-    z-index: -1;
 }
 
 @media only screen and (max-width: 1024px){
@@ -65,41 +63,42 @@
         grid-template-columns: 1fr;
         gap: 1rem;
         max-width: 90%;
-    }
-    .info-grid a{
-        text-align: right;
+        padding-top: 2.5rem;
     }
     .infoDiv a{
         text-align: left;
     }
 
     .desktopInfoMenu{
-        opacity: 0;
+        display: none;
     }
 
     .mobileInfo{
-        opacity: 1;
+        display: inherit;
         background-color: white;
         text-align: right;
         right: 1.3rem;
         z-index: 4;
     }
 
-    .openInfoMenuContainer  button{
-        border: none;
-        background-color: white;
-        font-weight: 200;
-        font-size: 2.5rem;
+    .mobileInfo a{
+        text-align: right;
     }
 
-    .mobileInfoMenuContainer {
-        opacity: 1;
-        z-index: -1;
-    }
-    .mobileInfoMenuContainer button {
+    .openInfoMenuBtnContainer  button{
+        height: 3rem;
+        width: 3rem;
+        line-height: 0;
+        font-size: 2.25rem;
         border: none;
         background-color: white;
         font-weight: 200;
-        font-size: 2.5rem;
+        text-align: right;
     }
+
+    .mobileInfoMenuContainer{
+        visibility: collapse;
+        display: none;
+    }
+
 }

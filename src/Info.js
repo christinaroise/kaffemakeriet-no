@@ -62,6 +62,24 @@ function showCareer () {
 
 const Intro = () => {
 
+      function showMenu () {
+        const mobInfoMenuCont = document.getElementById("mobInfoMenuCont");
+        const infoMenuBtn = document.getElementById("infoMenuBtn");
+
+        if(infoMenuBtn.innerHTML == "+"){
+            infoMenuBtn.innerHTML = "-"
+            mobInfoMenuCont.style.setProperty('visibility', 'visible');
+            mobInfoMenuCont.style.setProperty('display', 'initial');
+        }else{
+            if(infoMenuBtn.innerHTML == "-"){
+                infoMenuBtn.innerHTML = "+"
+                mobInfoMenuCont.style.setProperty('visibility', 'collapse');
+                mobInfoMenuCont.style.setProperty('display', 'none');
+
+            }
+        }
+      }
+
     return(
         <main>
             <ImgBlock imgUrl={womanCoffee} showTxtOverlay="true" hideButtonWhite="true"/>
@@ -74,14 +92,12 @@ const Intro = () => {
 
                 <article className="mobileInfo">
                     <div>
-                        <div className="openInfoMenuContainer">
-                            <button>+</button>
+                        <div id="openInfoMenuBtnCont" className="openInfoMenuBtnContainer">
+                            <button id="infoMenuBtn" onClick = { () => {showMenu()}}>+</button>
                         </div>
                     </div>
-                    <div className="mobileInfoMenuContainer">
-                        <div className="exitInfoMenuContainer">
-                            <button>-</button>
-                        </div>
+
+                    <div id="mobInfoMenuCont" className="mobileInfoMenuContainer">
                         <nav>
                             <a id="bioLink" onClick={showBio}>Vår Historie</a>
                             <a id="cafeLink" onClick={showCafes}>Våre Kaffebarer</a>

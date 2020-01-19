@@ -119,7 +119,7 @@ a{
     height: 10vh;
     position: absolute;
     background-color: transparent;
-    visibility: hidden;
+    display: none;
 }
 
 /* Footer CSS */
@@ -228,11 +228,12 @@ a{
     }
 
     .desktopMenu {
-        visibility: hidden;
+        display: none;
+        opacity: 0;
     }
 
     .headerMobile{
-        visibility: visible;
+        display: initial;
     }
     .mobileToggleMenuBtn{
         opacity: 1;
