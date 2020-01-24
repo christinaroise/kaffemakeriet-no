@@ -31,15 +31,13 @@ const App = () => {
 
   }
 
-
-
   return (
     <HashRouter basename='/'>
       <main>
         <article className='header'>
           <img src={logo}/>
           <nav className="desktopMenu">
-            <NavLink to="/" activeClassName="nav-link--active">Hjem</NavLink>
+            <NavLink exact to="/" activeClassName="nav-link--active">Hjem</NavLink>
             <NavLink to="Info" activeClassName="nav-link--active">Info</NavLink>
             <NavLink to="Produkter" activeClassName="nav-link--active">Produkter</NavLink>
           </nav>
