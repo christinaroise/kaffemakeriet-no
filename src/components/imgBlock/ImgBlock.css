@@ -2,7 +2,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    min-height: 80vh;
+    height: 80vh;
 
     color: white;
     overflow: hidden;
@@ -14,7 +14,7 @@
   }
 
   @media only screen and (max-width: 1024px){
-    .imgBlockMobile{
-      height: 37vw;
+    .imgBlock{
+      height: 85vh;
     }
   }

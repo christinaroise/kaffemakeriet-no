@@ -2,30 +2,30 @@ import React from 'react'
 import './articleBlock.css'
 import BlogpostLib from '../BlogpostLib/BlogpostLib'
 
-import cafe from '../../images/cafe.jpg'
-import artCappuccino from '../../images/artCappuccino.jpg'
-import cafeDate from '../../images/cafeDate.jpg'
+import KM1 from '../../images/KM1.png'
+import KM2 from '../../images/KM2.png'
+import KM3 from '../../images/KM3.png'
 
 const ArticleBlock = (props) =>{
 
     const blogposts = [
         {
-            title: "Sommerens beste iskaffe",
-            url: cafe,
-            date: "Juni 2018",
-            description: "Vi vet ikke med deg, men her hos oss nyter vi lange, varme sommerdager med et glass kald iskaffe. Spesielt godt er det med en dæsj av en kanskje litt overranske ingrediens."
+            title: "KAFFEMAKERIET",
+            url: KM1,
+            date: "30 likes",
+            description: "I helgen er det lov å unne seg ekstra god kaffe. Kom innom så hjelper vi deg å finne din favoritt!☕️❤️"
         },
         {
-            title: "Kan vi friste med et kurs?",
-            url: artCappuccino,
-            date: "Mai 2018",
-            description: "Det er ingen ting som slår en virkelig god kaffe. Det er en kunst å få til den perfekte koppen, men ingen vitenskap. Med andre ord, vi ønsker å dele vår kunnskap med DEG."
+            title: "KAFFEMAKERIET",
+            url: KM2,
+            date: "25 likes",
+            description: "Vi har hyllene fulle av deilig kaffe☕️ har du prøvd vår økologiske sommerkaffe fra Etiopia? Kom innom så hjelper vi deg å finne din favoritt!🤗 #solbergoghansen #coffe #kaffemakeriet"
         },
         {
-            title: "Live + Tore = Sant",
-            url: cafeDate,
-            date: "April 2018",
-            description: "Noen ganger, så tikker det inn fine meldiger fra våre besøkende, men denne historien er virkelig nydelig. Tenk at det blir et Kaffemakeriet bryllup!"
+            title: "KAFFEMAKERIET",
+            url: KM3,
+            date: "28 likes",
+            description: "Sommeren nærmer seg nå! Kom innom og kjøl deg ned med en deilig iskaffe🤤😍 #solbergoghansen #metrosenter #jessheimstorsenter #coffe #summer"
         }
     ]
 
@@ -41,7 +41,6 @@ const ArticleBlock = (props) =>{
                   url={blogpost.url}
                   title={blogpost.title}
                   description={blogpost.description}
-                  date={blogpost.date}
                 />
             ) 
             }

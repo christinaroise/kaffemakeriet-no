@@ -20,7 +20,7 @@ function Home() {
       <ImgBlock imgUrl={coffeeHeart} showTxtOverlay="false"  hideButtonWhite="true" customClass="imgBlockMobile"/>
       <PreviewBlock title="Anbefalte produkter" showKaffe="false" showCarousel="false" SmallProductsLib="true"/>
       <ImgBlock imgUrl={coffeeshop} showTxtOverlay="false" hideButtonWhite="true" customClass="imgBlockMobile"/>
-      <PreviewBlock title="Blogg" showArticleBlock="true" hideButtonDark="true" />
+      <PreviewBlock title="FØLG OSS PÅ INSTAGRAM" showArticleBlock="true" hideButtonDark="true" />
 
     </main>
   );

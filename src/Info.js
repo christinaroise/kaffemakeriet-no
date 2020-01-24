@@ -5,9 +5,8 @@ import Cafes from './components/info/Cafes'
 import Career from './components/info/career'
 import './components/info/info.css'
 
-import womanCoffee from './images/womanCoffee.jpg'
+import macbookCoffee from './images/macbookCoffee.jpg'
 
-// On mobile, the menu will become a toggle/burger menu. When clicked on each button its sister-component will appear, the others will remain hidden. "Vår historie" will be default. 
 
 function showBio () {
     let bioDiv = document.getElementById("compBioDiv");
@@ -82,7 +81,7 @@ const Intro = () => {
 
     return(
         <main>
-            <ImgBlock imgUrl={womanCoffee} showTxtOverlay="true" hideButtonWhite="true"/>
+            <ImgBlock imgUrl={macbookCoffee} showTxtOverlay="true" hideButtonWhite="true"/>
             <article className="info-grid">
                 <nav className="desktopInfoMenu">
                     <a id="bioLink" onClick={showBio}>Vår Historie</a>

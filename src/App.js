@@ -66,7 +66,7 @@ const App = () => {
             </div>
           </nav>
         </article>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/Home" component={Home} />
         <Route path="/Info" component={Info} />
         <Route path="/Produkter" component={Produkter} />
         <Footer/>
