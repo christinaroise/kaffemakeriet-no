@@ -60,7 +60,7 @@ const App = () => {
             </div>
             <div className="mobileMenuList">
             <h2>Meny</h2>
-            <NavLink onClick = { () => {hideMenu()}} to="Home" activeClassName="nav-link--active">Hjem</NavLink>
+            <NavLink onClick = { () => {hideMenu()}} to="/" activeClassName="nav-link--active">Hjem</NavLink>
             <NavLink onClick = { () => {hideMenu()}} to="Info" activeClassName="nav-link--active">Info</NavLink>
             <NavLink onClick = { () => {hideMenu()}} to="Produkter" activeClassName="nav-link--active">Produkter</NavLink>
             </div>
