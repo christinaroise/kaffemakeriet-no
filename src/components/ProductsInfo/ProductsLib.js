@@ -422,7 +422,7 @@ const ProductsLib = (props) => {
   return(
     <article className="coffeeCat">
         <div>
-          <h4>Kaffe / Te</h4>
+          <h4>Kaffe</h4>
           <p>Brenningsgrad</p>
           <div className="products-btns-mobile" id="roastDiv">
             <button id="btn-normal-roast" onClick={() => {
