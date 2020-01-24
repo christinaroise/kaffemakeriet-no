@@ -39,7 +39,7 @@ const App = () => {
         <article className='header'>
           <img src={logo}/>
           <nav className="desktopMenu">
-            <NavLink to="Home" activeClassName="nav-link--active">Hjem</NavLink>
+            <NavLink to="/" activeClassName="nav-link--active">Hjem</NavLink>
             <NavLink to="Info" activeClassName="nav-link--active">Info</NavLink>
             <NavLink to="Produkter" activeClassName="nav-link--active">Produkter</NavLink>
           </nav>
@@ -66,7 +66,7 @@ const App = () => {
             </div>
           </nav>
         </article>
-        <Route exact path="/Home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/Info" component={Info} />
         <Route path="/Produkter" component={Produkter} />
         <Footer/>
