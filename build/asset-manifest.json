@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/kaffemakeriet-no/static/css/main.27b43513.chunk.css",
-    "main.js": "/kaffemakeriet-no/static/js/main.7d6854ab.chunk.js",
-    "main.js.map": "/kaffemakeriet-no/static/js/main.7d6854ab.chunk.js.map",
+    "main.js": "/kaffemakeriet-no/static/js/main.b0d9cdea.chunk.js",
+    "main.js.map": "/kaffemakeriet-no/static/js/main.b0d9cdea.chunk.js.map",
     "runtime-main.js": "/kaffemakeriet-no/static/js/runtime-main.980a7fb8.js",
     "runtime-main.js.map": "/kaffemakeriet-no/static/js/runtime-main.980a7fb8.js.map",
     "static/css/2.17e5ed98.chunk.css": "/kaffemakeriet-no/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.516153a9.chunk.js": "/kaffemakeriet-no/static/js/2.516153a9.chunk.js",
-    "static/js/2.516153a9.chunk.js.map": "/kaffemakeriet-no/static/js/2.516153a9.chunk.js.map",
+    "static/js/2.19814ed6.chunk.js": "/kaffemakeriet-no/static/js/2.19814ed6.chunk.js",
+    "static/js/2.19814ed6.chunk.js.map": "/kaffemakeriet-no/static/js/2.19814ed6.chunk.js.map",
     "index.html": "/kaffemakeriet-no/index.html",
-    "precache-manifest.90fd4a9077594b4b78c419ec4945d8fa.js": "/kaffemakeriet-no/precache-manifest.90fd4a9077594b4b78c419ec4945d8fa.js",
+    "precache-manifest.ee57d85bdbe58b5f2e7f9baebd25389a.js": "/kaffemakeriet-no/precache-manifest.ee57d85bdbe58b5f2e7f9baebd25389a.js",
     "service-worker.js": "/kaffemakeriet-no/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/kaffemakeriet-no/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.27b43513.chunk.css.map": "/kaffemakeriet-no/static/css/main.27b43513.chunk.css.map",
-    "static/js/2.516153a9.chunk.js.LICENSE": "/kaffemakeriet-no/static/js/2.516153a9.chunk.js.LICENSE",
+    "static/js/2.19814ed6.chunk.js.LICENSE": "/kaffemakeriet-no/static/js/2.19814ed6.chunk.js.LICENSE",
     "static/media/Gatugi.png": "/kaffemakeriet-no/static/media/Gatugi.8f1fe626.png",
     "static/media/KM1.png": "/kaffemakeriet-no/static/media/KM1.074b2394.png",
     "static/media/KM2.png": "/kaffemakeriet-no/static/media/KM2.b977c2d7.png",
@@ -62,8 +62,8 @@
   "entrypoints": [
     "static/js/runtime-main.980a7fb8.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.516153a9.chunk.js",
+    "static/js/2.19814ed6.chunk.js",
     "static/css/main.27b43513.chunk.css",
-    "static/js/main.7d6854ab.chunk.js"
+    "static/js/main.b0d9cdea.chunk.js"
   ]
 }
