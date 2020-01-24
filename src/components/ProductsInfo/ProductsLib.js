@@ -38,6 +38,7 @@ import juleEspresso from '../../images/products/juleespresso.png';
 import tarquiEspresso from '../../images/products/tarquiEspresso.png';
 import tarqui from '../../images/products/tarqui.png';
 
+//s
 const coffeeProductsList = [
   {
     "title": "Don Mayo",
