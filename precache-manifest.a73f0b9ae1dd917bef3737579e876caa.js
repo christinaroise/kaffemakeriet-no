@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "069479f2a556ccc77b44eb9ae7166131",
+    "revision": "c3fb247632b5e1b28bdb90ddcbeec82a",
     "url": "/kaffemakeriet-no/index.html"
   },
   {
