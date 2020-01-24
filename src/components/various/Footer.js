@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="footer-columns">
                 <div className="footer-menu">
                     <h4>Meny</h4>
-                    <Link to ="/Home">
+                    <Link to ="/">
                         <a onClick={() => scrollToTop()}>Hjem</a>
                     </Link>
                     <Link to="/Info">
